@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+.header .col-md-12 img{
+	border-radius: 100%;
+	width: 40px;
+	margin: 0 20px 0 10px;
+	padding: 2px;
+}
+
+.header .col-md-12{
+	padding: 10px
+}
+.header .col-md-12 svg{
+	padding: 12px;
+	border-radius: 100%;
+	font-size: 20px!important;
+	transition: .3s;
+}
+
+.header .col-md-12 svg:hover{
+	padding: 12px;
+	background: rgba(60,64,67,.08);
+	cursor: pointer;
+}
+
+.header .col-md-12 a{
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 8px
+}
+
+/*Footer*/
+.footer{
+	background: #f2f2f2;
+	 padding: 0;
+  margin: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer hr{
+	margin: 0
+}
+
+.footer p{
+	margin: 0;
+}
+
+.footer .row2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .row2 ul li {
+  display: inline;
+  margin-right: 20px; /* Adjust as needed */
+
+}
+
+.footer .row2 ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.footer .row2 ul li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.footer .row1,.row2{
+	padding: 10px 20px
+}
+
+
+/*Searchbar*/
+ .search-container {
+      margin-top: 20px;
+    }
+    /* Add border radius to input field */
+    .form-control {
+      border-radius: 20px; /* You can adjust the value as needed */
+	   width: 500px!important; /* Adjust the width value as needed */
+	   border-left: 0;
+	   border-right:0;
+    }
+	
+	.input-group-text{
+		background-color: #f8f9fa00;
+		
+	}
+	.form-control:focus{
+		border-color: #dee2e6!important;
+		box-shadow: 0 0 0 0.25rem #ffffff00!important;
+	
+	}
+	
+.buttonnew{
+	    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 0px solid #dadce0;
+    color: #202124;
+	
+	padding: 5px 10px;
+}
+
+
+a{
+	text-decoration: none!important;
+}
